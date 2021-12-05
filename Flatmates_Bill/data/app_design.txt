@@ -1,0 +1,19 @@
+Title - Split the Bill between the flatmates
+Function - Enter Bill Amount for a particular time period
+         - Split the bill between the flatmates
+         - Return the amount each user has to pay
+         - Generate the pdf of the report
+         - Upload the pdf online
+
+Object - Bill :
+            - Amount
+            - Time Period
+
+         Flatmates :
+            - Name
+            - days_in_house
+            - pays(amount needs to be paid)
+
+         PDFReport :
+             - filename
+             - generate(flatmates, amount)
