@@ -10,7 +10,7 @@ This repository holds python based apps with CLI or Web interface. All the codes
                  Flatmate names & days they have stayed in the flat
        Output :  Generate PDF report with the amount details each user has to pay
        
-       ![Generated Report Sample](https://github.com/vinay-singh27/python-apps/blob/main/Flatmates_Bill/generated_report_sample.PNG)
+       ![Generated Report Sample](Flatmates_Bill/generated_report_sample.PNG)
  
        
 -----------------------------------------------------------------------------------------------------------------------------------------------------
