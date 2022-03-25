@@ -1,0 +1,24 @@
+Title - An app that let user draw shapes like square and rectangle in the canvas. The user can define
+these shapes color, size & location on the canvas
+Objects :
+        Square -
+            x,
+            y,
+            length of side,
+            color,
+            draw(canvas) -- plot on canvas
+
+        Rectangle -
+            x,
+            y,
+            length,
+            width,
+            color,
+            draw(canvas) -- plot on canvas
+
+        Canvas -
+            width,
+            height,
+            color,
+            make(save the image)
+
