@@ -9,7 +9,7 @@ This repository holds python based apps with CLI or Web interface. All the codes
        
  Sample of the App Interface:                       
  <p align="center">
- <img src="Webcam_photo_sharer/app_working_images/Starting Interface.JPG" width="300">
+ <img src="Webcam_photo_sharer/app_working_images/While Photo.JPG" width="300">
  </p>
   <p align="center">
  <img src="Webcam_photo_sharer/app_working_images/Creating shareable link.JPG" width="300">
