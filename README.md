@@ -22,10 +22,10 @@ This repository holds python based apps with CLI or Web interface. All the codes
        
  Sample of the generated PDF report is below:                       
  <p align="center">
- <img src="Webcam_photo_sharer/app_working_images/Starting Interface.JPG" width="100">
+ <img src="Webcam_photo_sharer/app_working_images/Starting Interface.JPG" width="300">
  </p>
   <p align="center">
- <img src="Webcam_photo_sharer/app_working_images/Creating shareable link.JPG" width="100">
+ <img src="Webcam_photo_sharer/app_working_images/Creating shareable link.JPG" width="300">
  </p>
                                    
        
