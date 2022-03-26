@@ -9,7 +9,10 @@ This repository holds python based apps with CLI or Web interface. All the codes
        
  Sample of the App Interface:                       
  <p align="center">
- <img src="Flatmates_Bill/report_sample.JPG" width="300">
+ <img src="Webcam_photo_sharer/app_working_images/Starting Interface.JPG" width="300">
+ </p>
+  <p align="center">
+ <img src="Webcam_photo_sharer/app_working_images/Creating shareable link.JPG" width="300">
  </p>
  
 -----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -20,13 +23,10 @@ This repository holds python based apps with CLI or Web interface. All the codes
                      Flatmate names & days they have stayed in the flat
        Output     :  Generate PDF report with the amount details each user has to pay
        
- Sample of the generated PDF report is below:                       
+ Sample of the generated PDF report is below:
  <p align="center">
- <img src="Webcam_photo_sharer/app_working_images/Starting Interface.JPG" width="300">
+ <img src="Flatmates_Bill/report_sample.JPG" width="300">
  </p>
-  <p align="center">
- <img src="Webcam_photo_sharer/app_working_images/Creating shareable link.JPG" width="300">
- </p>
-                                   
-       
+ 
+                                
 -----------------------------------------------------------------------------------------------------------------------------------------------------
