@@ -86,9 +86,6 @@ class ImageScreen(Screen):
 
 
 
-
-
-
 class RootWidget(ScreenManager):
     pass
 
