@@ -111,6 +111,7 @@ class PredictSentiment:
 
         results_df = pd.DataFrame(results, columns=['Answer', 'Answer_Score'])
         dataframe = pd.concat([dataframe, results_df], axis=1)
+        dataframe = dataframe[dataframe['Answer_Score'] > 0.1]
 
         return dataframe
 
