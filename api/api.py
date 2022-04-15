@@ -13,7 +13,8 @@ class API:
         wp = jp.WebPage()
         text = req.query_params.get('w')
         # jp.Div(a=wp, text=word.title())
-        sentiment_df = PredictSentiment.predict_sentiment(text)
+        # sentiment_df = PredictSentiment.predict_sentiment(text)
+        sentiment_df = text
         response = {
             "word": text,
             "Sentiment": sentiment_df

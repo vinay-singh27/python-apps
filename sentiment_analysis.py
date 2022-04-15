@@ -152,7 +152,10 @@ class PredictSentiment:
         # predict sentiment on the text
         sentiment_df = self.extract_roberta_sentiment(entity_df)
 
-        # print dataframe
-        sentiment_df = sentiment_df[['Entity', 'Type', 'Roberta_label']]
+        string_result = []
+        for idx, row in sentiment_df.iterrows():
+            string_result.append(f"{row['Entity']}   {row['Roberta_label']}")
 
-        return sentiment_df.to_string()
+        string_result = "\n".join(string_result)
+
+        return string_result

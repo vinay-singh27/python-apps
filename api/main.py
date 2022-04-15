@@ -5,4 +5,4 @@ import justpy as jp
 
 jp.Route("/api", api.API.serve)
 jp.Route("/", documentation.Doc.serve)
-jp.justpy()
+jp.justpy(port=8000)

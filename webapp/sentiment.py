@@ -1,6 +1,7 @@
 import justpy as jp
 from webapp import layout, page
 import requests
+from sentiment_analysis import PredictSentiment
 
 
 class Sentiment(page.Page):
@@ -33,10 +34,10 @@ class Sentiment(page.Page):
 
     @staticmethod
     def get_sentiment(widget, msg):
-
-        req = requests.get(f"http://127.0.0.1:8000/api?w={widget.value}")
-        data = req.json()
-        defined = "\n".join(data["Definition"])
+        defined = PredictSentiment().predict_sentiment(widget.value)
+        # req = requests.get(f"http://127.0.0.1:8000/api?w={widget.value}")
+        # data = req.json()
+        # defined = "\n".join(data["Definition"])
         widget.outputdiv.text = defined
 
 

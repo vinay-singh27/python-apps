@@ -16,7 +16,7 @@ class DefaultLayout(jp.QLayout):
         a_classes = "p-2 m-2 text-lg text-blue-400 hover:text-blue-700"
         jp.A(a=qlist, text="Home", href="/", classes=a_classes)
         jp.Br(a=qlist)
-        jp.A(a=qlist, text="Dictionary", href="/dictionary", classes=a_classes)
+        jp.A(a=qlist, text="Sentiment Analyzer", href="/sentiment", classes=a_classes)
         jp.Br(a=qlist)
         jp.A(a=qlist, text="About", href="/about", classes=a_classes)
         jp.Br(a=qlist)
