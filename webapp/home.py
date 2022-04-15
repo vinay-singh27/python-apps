@@ -14,8 +14,9 @@ class Home(page.Page):
         lay = layout.DefaultLayout(a=wp, view="hHh lpR fFf")
         container = jp.QPageContainer(a=lay)
 
-        div = jp.Div(a=container, classes="bg-gray-200 h-screen p-2")
-        jp.Div(a=div, text="Aspect based Sentiment Analysis", classes="text-4xl m-2")
+        div = jp.Div(a=container, classes="bg-green-100 h-screen p-2")
+        jp.Div(a=div, text="Home", classes="text-6xl m-2 font-serif italic")
+        jp.Br(a=div)
 
         jp.Div(a=div, text="""Aspect-Based Sentiment Analysis (ABSA) is a type of text analysis that categorizes 
         opinions by aspect and identifies the sentiment related to each aspect.

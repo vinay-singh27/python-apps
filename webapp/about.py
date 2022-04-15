@@ -13,8 +13,9 @@ class About(page.Page):
         lay = layout.DefaultLayout(a=wp, view="hHh lpR fFf")
         container = jp.QPageContainer(a=lay)
 
-        div = jp.Div(a=container, classes="bg-gray-200 h-screen")
-        jp.Div(a=div, text="This is about page", classes="text-4xl m-2")
+        div = jp.Div(a=container, classes="bg-green-100 h-screen p-2")
+        jp.Div(a=div, text="About", classes="text-6xl m-2 font-serif italic")
+        jp.Br(a=div)
         jp.Div(a=div, text="""Originally spoken by small groups of people living along the lower Tiber River, 
                Latin spread with the increase of Roman political power, first throughout Italy and then throughout most of 
                western and southern Europe and the central and western Mediterranean coastal regions of Africa. 

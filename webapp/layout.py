@@ -13,16 +13,19 @@ class DefaultLayout(jp.QLayout):
         drawer = jp.QDrawer(a=self, show_if_above=True, v_mode="left", bordered=True)
         scroll = jp.QScrollArea(a=drawer, classes="fit")
         qlist = jp.QList(a=scroll)
-        a_classes = "p-2 m-2 text-lg text-blue-400 hover:text-blue-700"
+        a_classes = "p-2 m-2 text-lg text-black-600 hover:text-blue-700"
         jp.A(a=qlist, text="Home", href="/", classes=a_classes)
+        jp.Br(a=qlist)
         jp.Br(a=qlist)
         jp.A(a=qlist, text="Sentiment Analyzer", href="/sentiment", classes=a_classes)
         jp.Br(a=qlist)
+        jp.Br(a=qlist)
         jp.A(a=qlist, text="About", href="/about", classes=a_classes)
+        jp.Br(a=qlist)
         jp.Br(a=qlist)
 
         jp.QBtn(a=q_toolbar, dense=True, flat=True, round=True, icon="menu", click=self.move_drawer, drawer=drawer)
-        jp.QToolbarTitle(a=q_toolbar, text="Instant Dictionary")
+        jp.QToolbarTitle(a=q_toolbar, text="Sentiment Analysis")
 
     @staticmethod
     def move_drawer(widget, msg):

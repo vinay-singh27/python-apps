@@ -137,21 +137,30 @@ class PredictSentiment:
 
         # create dataframe for the text
         tweet_dataframe = pd.DataFrame(data=[text], columns=['content'])
+        print("1")
 
         # data cleaning
         processed_dataframe = self.data_processing(tweet_dataframe)
+        print("2")
 
         # extract the clean text
         clean_text = processed_dataframe['Clean_text'].iloc[0]
+        print("3")
 
         # extract the entities
         entity_df = self.extract_entities(clean_text)
+        print("4")
+        print(entity_df)
 
         # extract dependent phrase for the entities
         entity_df = self.extract_entity_dependent_phrase(entity_df)
+        print("5")
+        print(entity_df)
 
         # predict sentiment on the text
         sentiment_df = self.extract_roberta_sentiment(entity_df)
+        print("6")
+        print(sentiment_df)
 
         string_result = []
         for idx, row in sentiment_df.iterrows():
