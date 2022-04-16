@@ -23,5 +23,7 @@ class Home(page.Page):
         By aspects, we consider attributes or components of an entity (a product or a service, in our case).
         """,
                classes="text-lg")
+        jp.Br(a=div)
+        jp.Img(src='../static/images/absa_example2.jpg', a=div, classes='m-2 p-2')
 
         return wp

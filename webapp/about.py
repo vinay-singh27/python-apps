@@ -16,13 +16,9 @@ class About(page.Page):
         div = jp.Div(a=container, classes="bg-green-100 h-screen p-2")
         jp.Div(a=div, text="About", classes="text-6xl m-2 font-serif italic")
         jp.Br(a=div)
-        jp.Div(a=div, text="""Originally spoken by small groups of people living along the lower Tiber River, 
-               Latin spread with the increase of Roman political power, first throughout Italy and then throughout most of 
-               western and southern Europe and the central and western Mediterranean coastal regions of Africa. 
-               The modern Romance languages developed from the spoken Latin of various parts of the Roman Empire.
-                During the Middle Ages and until comparatively recent times, Latin was the language most widely used 
-                in the West for scholarly and literary purposes. Until the latter part of the 20th century its 
-                use was required in the liturgy of the Roman Catholic Church.
+        jp.Div(a=div, text="""Aspect-Based Sentiment Analysis (ABSA) is a type of text analysis that categorizes 
+        opinions by aspect and identifies the sentiment related to each aspect.
+        By aspects, we consider attributes or components of an entity (a product or a service, in our case).
                """, classes="text-lg")
 
         return wp
