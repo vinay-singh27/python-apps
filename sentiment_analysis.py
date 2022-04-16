@@ -72,9 +72,9 @@ class PredictSentiment:
 
     def extract_entities(self, clean_text):
         """
-
-        :param clean_text:
-        :return:
+        This function uses spacy nlp pipeline to extract entities
+        :param clean_text: string
+        :return: dataframe with the list of all the entities in the clean_text
         """
 
         # identify the entities in the dataset
@@ -91,7 +91,8 @@ class PredictSentiment:
 
     def extract_entity_dependent_phrase(self, dataframe):
         """
-
+        This function uses trained NLP-QA model to extract
+        the dependent phrase from the text for the entity
         :param dataframe:
         :return:
         """
@@ -116,6 +117,13 @@ class PredictSentiment:
         return dataframe
 
     def roberta_sentiment_analysis(self, text):
+        """
+        This function uses pre-trained RoBERTa sentiment
+        analysis model to identify the whether the associated
+        phrase with the sentiment is positive or negative.
+        :param text:
+        :return:
+        """
 
         encoded_input = self.sa_roberta_tokenizer(text, return_tensors='pt')
         output = self.sa_roberta_model(**encoded_input)
@@ -134,6 +142,13 @@ class PredictSentiment:
         return dataframe
 
     def predict_sentiment(self, text):
+        """
+        This function combines all the function above
+        to extract & predict the sentiment for the
+        entity present in the text
+        :param text:
+        :return:
+        """
 
         # create dataframe for the text
         tweet_dataframe = pd.DataFrame(data=[text], columns=['content'])
