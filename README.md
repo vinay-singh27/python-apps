@@ -6,14 +6,6 @@ This repository holds python based apps with CLI or Web interface. All the codes
 
 - ### [WebCam Photo Sharer](https://github.com/vinay-singh27/python-apps/tree/main/Webcam_photo_sharer)
        Objective  :  Allow the user to take a photo through webcam and share it on web
-       
- Sample of the App Interface:                       
- <p align="center">
- <img src="Webcam_photo_sharer/app_working_images/While Photo.JPG" width="300">
- </p>
-  <p align="center">
- <img src="Webcam_photo_sharer/app_working_images/Creating shareable link.JPG" width="300">
- </p>
  
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
