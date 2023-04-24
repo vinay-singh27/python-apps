@@ -25,6 +25,8 @@ This repository holds python based apps with CLI or Web interface. All the codes
 -------------------------------------------------------------------------
 
 - ## [Instant Dictionary](https://github.com/vinay-singh27/python-apps/tree/main/Instant_Dictionary)
-       Objective  : A web app that lets users type in a term in a text box and returns the English definition of that term instantly as soon as the user has finished typing.
+       Objective  : A web app that lets users type in a term in a text box and 
+       returns the English definition of that term instantly as soon as 
+       the user has finished typing.
        The web app consists of a website with a navigation menu, a Home, Dictionary, and About page.
  
